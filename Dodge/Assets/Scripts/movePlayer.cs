@@ -46,12 +46,9 @@ public class movePlayer : MonoBehaviour
         if (other.gameObject.CompareTag("Finish"))
         {
             gameManager.Win();
-            Debug.Log("You Win!");
-
         }
         if (other.gameObject.CompareTag("enemy"))
         {
-            Debug.Log("Hit");
             Destroy(other.gameObject);
             gameManager.ReduceLives();
             ResetPlayerPos();

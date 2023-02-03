@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class vehicalBase : MonoBehaviour
 {
-    public float speed = 20.0f;
-
+    private float speed = 20.0f;
+    
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         transform.Translate(Vector3.right * Time.deltaTime * speed);
+
     }
+
 }
