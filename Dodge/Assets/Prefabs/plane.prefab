@@ -108,9 +108,10 @@ GameObject:
   - component: {fileID: 1271821653687447570}
   - component: {fileID: 6495464131492634354}
   - component: {fileID: -2554413554795198366}
+  - component: {fileID: 333872756481438522}
   m_Layer: 0
   m_Name: plane
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,12 +141,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271821653687447573}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5c3446476a0c6d44b836deb66fa924e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
 --- !u!114 &-2554413554795198366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +156,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90e4448d345ad124a91d6dedd1a2daef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &333872756481438522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271821653687447573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba5df1c36be0c240afbdbba6a9e7cf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1271821653955803479

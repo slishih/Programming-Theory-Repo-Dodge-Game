@@ -10,8 +10,8 @@ public class spawnManager : MonoBehaviour
     private float spawnPosY = (float).64;
 
     private float startDelay = 0f;
-    private float spawnIntervalMin = 0;
-    private float spawnIntervalMax = 4;
+    private float spawnIntervalMin = .2f;
+    private float spawnIntervalMax = .4f;
 
     private float[] spawnZPos = {6, 2, (float)-1.5, (float)-5.5};
 
